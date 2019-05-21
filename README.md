@@ -4,7 +4,7 @@ This is a browser based reimplementation of the compass map from MagiQuest Myrtl
 It is my hope that having a way to view this data will help with future virtual recreations of the Myrtle Beach location.
 
 # Try It:
-https://raw.githubusercontent.com/sinkillerj/MQMyrtMapViewer/master/mapview.html
+https://sinkillerj.github.io/MQMyrtMapViewer/mapview.html
 
 # Limitations
 This, like the original, is based on a artistic rendering that in some ways does not represent the actual floor plan. While a floor plan of the building is available it would require new coordinates, and I have no plans to make a more accurate map at this time.
