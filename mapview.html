@@ -1,0 +1,579 @@
+<html>
+
+<style>
+
+	body {
+		width: 1295px;
+		margin: 0px auto;
+		background-color: black;
+		background-image: url("woodgrain.jpg");
+	}
+
+	#maplower {
+		width: 643px;
+		height: 490px;
+		background-image: url("myrtlelower.png");
+		vertical-align: top;
+		float: left;
+	}
+
+	#mapupper {
+		width: 643px;
+		height: 490px;
+		background-image: url("myrtleupper.png");
+		vertical-align: top;
+    	position: absolute;
+		left: 643px;
+	}
+
+	#buttons {
+    	position: absolute;
+		top: 495px;
+	}
+
+	.ximg {
+    	width: 25px; 
+    	height: 24px;
+    	position: absolute; 
+		background-image: url("x.png");
+	}
+
+</style>
+
+<body>
+
+	<div id="maplower">
+		<div id="Lightning">
+			<div class="ximg" style="left: 387.9875px; top: 325.376px;" title="Shield"></div>
+			<div class="ximg" style="left: 429.86px; top: 264.822px;" title="Armor"></div>
+			<div class="ximg" style="left: 364.725px; top: 339.35px;" title="Sword"></div>
+			<div class="ximg" style="left: 429.86px; top: 325.376px;" title="Magi Code Book"></div>
+			<div class="ximg" style="left: 206.54px; top: 409.22px;" title="Man Mist SS"></div>
+		</div>
+		<div id="Enchant">
+			<div class="ximg" style="left: 225.15px; top: 185.636px;" title="Chest #1"></div>
+			<div class="ximg" style="left: 178.625px; top: 250.848px;" title="Chest #2"></div>
+			<div class="ximg" style="left: 225.15px; top: 306.744px;" title="Chest #3"></div>
+			<div class="ximg" style="left: 336.81px; top: 330.034px;" title="Rune Rock"></div>
+		</div>
+		<div id="Music">
+			<div class="ximg" style="left: 220.4975px; top: 362.64px;" title="Drums"></div>
+			<div class="ximg" style="left: 434.5125px; top: 106.45px;" title="Flute"></div>
+			<div class="ximg" style="left: 392.64px; top: 129.74px;" title="Horn"></div>
+			<div class="ximg" style="left: 341.4625px; top: 362.64px;" title="Sax"></div>
+			<div class="ximg" style="left: 387.9875px; top: 153.03px;" title="Harp"></div>
+			<div class="ximg" style="left: 355.42px; top: 129.74px;" title="Trumpet"></div>
+			<div class="ximg" style="left: 132.1px; top: 176.32px;" title="Unicorn Encounter"></div>
+		</div>
+		<div id="Heal">
+			<div class="ximg" style="left: 248.4125px; top: 106.45px;" title="Moss"></div>
+			<div class="ximg" style="left: 239.1075px; top: 311.402px;" title="Fern"></div>
+			<div class="ximg" style="left: 411.25px; top: 320.718px;" title="Fungus"></div>
+			<div class="ximg" style="left: 457.775px; top: 339.35px;" title="Slime"></div>
+		</div>
+		<div id="Portal">
+			<div class="ximg" style="left: 355.42px; top: 264.822px;" title="LadyWall ss"></div>
+		</div>
+		<div id="Reveal">
+			<div class="ximg" style="left: 178.625px; top: 232.216px;" title="Forest Statue"></div>
+			<div class="ximg" style="left: 294.9375px; top: 115.766px;" title="Flower Box"></div>
+			<div class="ximg" style="left: 387.9875px; top: 255.506px;" title="Map"></div>
+			<div class="ximg" style="left: 178.625px; top: 185.636px;" title="Black Hole"></div>
+			<div class="ximg" style="left: 457.775px; top: 269.48px;" title="Eyeballs SS"></div>
+		</div>
+		<div id="Freeze">
+			<div class="ximg" style="left: 290.285px; top: 115.766px;" title="Crypt Torch"></div>
+			<div class="ximg" style="left: 141.405px; top: 255.506px;" title="Tree"></div>
+			<div class="ximg" style="left: 443.8175px; top: 344.008px;" title="Book of Freezing (Treasures?)"></div>
+			<div class="ximg" style="left: 146.0575px; top: 236.874px;" title="Stumpy SS"></div>
+		</div>
+		<div id="Dazzle">
+			<div class="ximg" style="left: 239.1075px; top: 325.376px;" title="Red Xtal"></div>
+			<div class="ximg" style="left: 169.32px; top: 232.216px;" title="Blue Xtal"></div>
+			<div class="ximg" style="left: 318.2px; top: 316.06px;" title="White Xtal"></div>
+			<div class="ximg" style="left: 327.505px; top: 204.268px;" title="Yellow Xtal"></div>
+			<div class="ximg" style="left: 225.15px; top: 176.32px;" title="Lady Leaves SS"></div>
+		</div>
+		<div id="Protection">
+			<div class="ximg" style="left: 248.4125px; top: 362.64px;" title="Wizard ss"></div>
+		</div>
+		<div id="Ice Arrow">
+			<div class="ximg" style="left: 378.6825px; top: 194.952px;" title="Hawks Claw"></div>
+			<div class="ximg" style="left: 318.2px; top: 204.268px;" title="Snowflakes"></div>
+			<div class="ximg" style="left: 248.4125px; top: 348.666px;" title="Icicles"></div>
+			<div class="ximg" style="left: 253.065px; top: 167.004px;" title="Cauldron"></div>
+			<div class="ximg" style="left: 355.42px; top: 176.32px;" title="Owl SS"></div>
+		</div>
+		<div id="Master Magi">
+			<div class="ximg" style="left: 173.9725px; top: 190.294px;" title="Star 1(above sod house)"></div>
+			<div class="ximg" style="left: 387.9875px; top: 325.376px;" title="Star 2(library ceiling)"></div>
+			<div class="ximg" style="left: 387.9875px; top: 153.03px;" title="Star 3(music tree)"></div>
+			<div class="ximg" style="left: 280.98px; top: 432.51px;" title="Star 4(mountain)"></div>
+			<div class="ximg" style="left: 146.0575px; top: 129.74px;" title="Star 5(shadow)"></div>
+			<div class="ximg" style="left: 355.42px; top: 264.822px;" title="Creativity Stone 1st"></div>
+			<div class="ximg" style="left: 239.1075px; top: 311.402px;" title="Communication Stone 2nd"></div>
+			<div class="ximg" style="left: 387.9875px; top: 255.506px;" title="Collaboration Stone 3rd"></div>
+			<div class="ximg" style="left: 457.775px; top: 269.48px;" title="Courage Stone 4th"></div>
+			<div class="ximg" style="left: 285.6325px; top: 222.9px;" title="Master Magi Chest"></div>
+		</div>
+		<div id="Shield">
+			<div class="ximg" style="left: 285.6325px; top: 353.324px;" title="Crystal Cluster"></div>
+			<div class="ximg" style="left: 369.3775px; top: 171.662px;" title="Crystal Ball"></div>
+			<div class="ximg" style="left: 178.625px; top: 232.216px;" title="Fairy Statue"></div>
+			<div class="ximg" style="left: 387.9875px; top: 325.376px;" title="Castle Shield"></div>
+			<div class="ximg" style="left: 429.86px; top: 264.822px;" title="Armor"></div>
+			<div class="ximg" style="left: 146.0575px; top: 129.74px;" title="Shadows Star"></div>
+			<div class="ximg" style="left: 248.4125px; top: 362.64px;" title="Wizard ss"></div>
+		</div>
+		<div id="Potion">
+			<div class="ximg" style="left: 239.1075px; top: 311.402px;" title="Fern"></div>
+			<div class="ximg" style="left: 411.25px; top: 320.718px;" title="Fungus"></div>
+			<div class="ximg" style="left: 378.6825px; top: 194.952px;" title="Hawks Claw"></div>
+			<div class="ximg" style="left: 248.4125px; top: 348.666px;" title="Icicles"></div>
+			<div class="ximg" style="left: 248.4125px; top: 106.45px;" title="Moss"></div>
+			<div class="ximg" style="left: 457.775px; top: 339.35px;" title="Slime"></div>
+			<div class="ximg" style="left: 318.2px; top: 204.268px;" title="Snowflakes"></div>
+			<div class="ximg" style="left: 253.065px; top: 167.004px;" title="Cauldron"></div>
+			<div class="ximg" style="left: 280.98px; top: 432.51px;" title="Mountain Star"></div>
+			<div class="ximg" style="left: 457.775px; top: 269.48px;" title="Eyeballs ss"></div>
+		</div>
+		<div id="Fire">
+			<div class="ximg" style="left: 318.2px; top: 409.22px;" title="Lamp"></div>
+			<div class="ximg" style="left: 290.285px; top: 115.766px;" title="Crypt Torch"></div>
+			<div class="ximg" style="left: 378.6825px; top: 292.77px;" title="Castle Torch Right"></div>
+			<div class="ximg" style="left: 378.6825px; top: 269.48px;" title="Castle Torch Left"></div>
+			<div class="ximg" style="left: 443.8175px; top: 344.008px;" title="Lamp in Dungeon"></div>
+			<div class="ximg" style="left: 206.54px; top: 409.22px;" title="Lightning"></div>
+		</div>
+		<div id="Creativity">
+			<div class="ximg" style="left: 387.9875px; top: 330.034px;" title="Shakespeare"></div>
+			<div class="ximg" style="left: 392.64px; top: 139.056px;" title="Beethoven"></div>
+			<div class="ximg" style="left: 253.065px; top: 218.242px;" title="DaVinci"></div>
+			<div class="ximg" style="left: 308.895px; top: 218.242px;" title="Tchaikovsky"></div>
+			<div class="ximg" style="left: 476.385px; top: 129.74px;" title="Keeper of Stars ss"></div>
+		</div>
+		<div id="Courage">
+			<div class="ximg" style="left: 429.86px; top: 264.822px;" title="Joan of Arc"></div>
+			<div class="ximg" style="left: 248.4125px; top: 362.64px;" title="King Arthur"></div>
+			<div class="ximg" style="left: 94.88px; top: 260.164px;" title="William Wallace"></div>
+			<div class="ximg" style="left: 160.015px; top: 153.03px;" title="Pocahontas"></div>
+			<div class="ximg" style="left: 476.385px; top: 129.74px;" title="Keeper of Stars ss"></div>
+		</div>
+		<div id="Compromise">
+			<div class="ximg" style="left: 132.1px; top: 362.64px;" title="Woodsy"></div>
+			<div class="ximg" style="left: 225.15px; top: 362.64px;" title="Warrior"></div>
+			<div class="ximg" style="left: 425.2075px; top: 274.138px;" title="Majestic"></div>
+			<div class="ximg" style="left: 434.5125px; top: 344.008px;" title="Shadow"></div>
+			<div class="ximg" style="left: 276.3275px; top: 115.766px;" title="Trixter"></div>
+			<div class="ximg" style="left: 476.385px; top: 129.74px;" title="Keeper of Stars ss"></div>
+		</div>
+		<div id="Communication">
+			<div class="ximg" style="left: 76.27px; top: 241.532px;" title="Morse"></div>
+			<div class="ximg" style="left: 332.1575px; top: 106.45px;" title="Sign"></div>
+			<div class="ximg" style="left: 429.86px; top: 269.48px;" title="Braille"></div>
+			<div class="ximg" style="left: 476.385px; top: 129.74px;" title="Keeper of Stars ss"></div>
+		</div>
+		<div id="Collaboration">
+			<div class="ximg" style="left: 481.0375px; top: 432.51px;" title="Dragon encounter"></div>
+		</div>
+		<div id="Dragon">
+			<div class="ximg" style="left: 332.1575px; top: 325.376px;" title="1st Reveal symbol"></div>
+			<div class="ximg" style="left: 206.54px; top: 185.636px;" title="2nd Reveal symbol"></div>
+			<div class="ximg" style="left: 481.0375px; top: 432.51px;" title="Dragon encounter"></div>
+			<div class="ximg" style="left: 481.0375px; top: 362.64px;" title="Dragon jewels"></div>
+		</div>
+		<div id="Goblin">
+			<div class="ximg" style="left: 481.0375px; top: 246.19px;" title="Goblin encounter"></div>
+			<div class="ximg" style="left: 448.47px; top: 348.666px;" title="Broach"></div>
+			<div class="ximg" style="left: 504.3px; top: 269.48px;" title="Bracelet"></div>
+			<div class="ximg" style="left: 448.47px; top: 269.48px;" title="Tiara"></div>
+			<div class="ximg" style="left: 467.08px; top: 278.796px;" title="Necklace"></div>
+			<div class="ximg" style="left: 443.8175px; top: 334.692px;" title="Ring"></div>
+		</div>
+		<div id="Pixie">
+			<div class="ximg" style="left: 169.32px; top: 260.164px;" title="Ugly Critter"></div>
+			<div class="ximg" style="left: 397.2925px; top: 176.32px;" title="Birdhouse"></div>
+			<div class="ximg" style="left: 94.88px; top: 260.164px;" title="Redchest"></div>
+		</div>
+		<div id="Unicorn">
+			<div class="ximg" style="left: 411.25px; top: 185.636px;" title="Old man crystal"></div>
+			<div class="ximg" style="left: 434.5125px; top: 162.346px;" title="Old man encounter"></div>
+			<div class="ximg" style="left: 239.1075px; top: 120.424px;" title="Crypt crystal"></div>
+			<div class="ximg" style="left: 211.1925px; top: 92.476px;" title="Gargoyle distract"></div>
+			<div class="ximg" style="left: 160.015px; top: 153.03px;" title="Unicorn crystal"></div>
+			<div class="ximg" style="left: 132.1px; top: 176.32px;" title="Unicorn encounter"></div>
+		</div>
+		<div id="Duel Master">
+			<div class="ximg" style="left: 429.86px; top: 274.138px;" title="Quivermore"></div>
+			<div class="ximg" style="left: 332.1575px; top: 106.45px;" title="Spider crystal"></div>
+			<div class="ximg" style="left: 364.725px; top: 83.16px;" title="Spider encounter"></div>
+			<div class="ximg" style="left: 178.625px; top: 325.376px;" title="DuelMaster crystal"></div>
+			<div class="ximg" style="left: 155.3625px; top: 306.744px;" title="Potion Box"></div>
+			<div class="ximg" style="left: 155.3625px; top: 278.796px;" title="Jewel cube"></div>
+		</div>
+		<div id="Ice Dragon">
+			<div class="ximg" style="left: 318.2px; top: 409.22px;" title="Lamp"></div>
+			<div class="ximg" style="left: 290.285px; top: 106.45px;" title="Crypt Torch"></div>
+			<div class="ximg" style="left: 378.6825px; top: 292.77px;" title="Castle Torch Right"></div>
+			<div class="ximg" style="left: 378.6825px; top: 269.48px;" title="Castle Torch Left"></div>
+			<div class="ximg" style="left: 443.8175px; top: 344.008px;" title="Lamp in Dungeon"></div>
+			<div class="ximg" style="left: 206.54px; top: 409.22px;" title="Lightning"></div>
+			<div class="ximg" style="left: 253.065px; top: 167.004px;" title="Cauldron"></div>
+			<div class="ximg" style="left: 387.9875px; top: 325.376px;" title="Castle Shield"></div>
+			<div class="ximg" style="left: 239.1075px; top: 92.476px;" title="Crypt code"></div>
+			<div class="ximg" style="left: 481.0375px; top: 432.51px;" title="Dragon encounter"></div>
+		</div>
+	</div>
+	<div id="mapupper">
+		<div id="Enchant2">
+			<div class="ximg" style="left: 132.1px; top: 330.034px;" title="Pixie Encounter"></div>
+		</div>
+		<div id="Distract2">
+			<div class="ximg" style="left: 294.9375px; top: 111.108px;" title="Gargoyle ss"></div>
+		</div>
+		<div id="Heal2">
+			<div class="ximg" style="left: 429.86px; top: 264.822px;" title="Princess Encounter"></div>
+		</div>
+		<div id="Freeze2">
+			<div class="ximg" style="left: 387.9875px; top: 302.086px;" title="Princess Painting"></div>
+		</div>
+		<div id="Dazzle2">
+			<div class="ximg" style="left: 160.015px; top: 311.402px;" title="Black Xtal"></div>
+		</div>
+		<div id="Ice Arrow2">
+			<div class="ximg" style="left: 257.7175px; top: 115.766px;" title="Dragon Scales"></div>
+		</div>
+		<div id="Master Magi2">
+			<div class="ximg" style="left: 94.88px; top: 260.164px;" title="Book of Stars"></div>
+			<div class="ximg" style="left: 239.1075px; top: 115.766px;" title="Compromise Stone 5th"></div>
+		</div>
+		<div id="Potion2">
+			<div class="ximg" style="left: 257.7175px; top: 115.766px;" title="Dragon Scales"></div>
+		</div>
+		<div id="Fire2">
+			<div class="ximg" style="left: 355.42px; top: 129.74px;" title="Lamp above crypt"></div>
+			<div class="ximg" style="left: 294.9375px; top: 111.108px;" title="Gargoyle ss"></div>
+		</div>
+		<div id="Creativity2">
+			<div class="ximg" style="left: 280.98px; top: 83.16px;" title="Rembrandt ss"></div>
+		</div>
+		<div id="Courage2">
+			<div class="ximg" style="left: 94.88px; top: 316.06px;" title="Robin Hood"></div>
+		</div>
+		<div id="Dragon2">
+			<div class="ximg" style="left: 313.5475px; top: 92.476px;" title="3rd Reveal symbol"></div>
+		</div>
+		<div id="Goblin2">
+			<div class="ximg" style="left: 429.86px; top: 264.822px;" title="Princess crystal"></div>
+			<div class="ximg" style="left: 439.165px; top: 288.112px;" title="Princess Jewel Box"></div>
+		</div>
+		<div id="Pixie2">
+			<div class="ximg" style="left: 164.6675px; top: 362.64px;" title="Pixie crystal"></div>
+			<div class="ximg" style="left: 132.1px; top: 330.034px;" title="Pixie encounter"></div>
+		</div>
+		<div id="Ice Dragon2">
+			<div class="ximg" style="left: 355.42px; top: 129.74px;" title="Lamp above crypt"></div>
+		</div>
+	</div>
+
+	<div id="buttons">
+		<p><button onclick="showAll()">Show All</button> <button onclick="hideAll()">Hide All</button> <button onclick="toggleLower()">Toggle Lower Level</button> <button onclick="toggleUpper()">Toggle Upper Level</button></p>
+		<p><button onclick="showLightning()">Lightning</button> <button onclick="showEnchant()">Enchant</button> <button onclick="showDistract()">Distract</button> <button onclick="showMusic()">Music</button> <button onclick="showHeal()">Heal</button> <button onclick="showPortal()">Portal</button> <button onclick="showReveal()">Reveal</button> <button onclick="showFreeze()">Freeze</button> <button onclick="showDazzle()">Dazzle</button> <button onclick="showProtection()">Protection</button> <button onclick="showIceArrow()">Ice Arrow</button> <button onclick="showMasterMagi()">Master Magi</button></p>
+		<p><button onclick="showDragon()">Dragon</button> <button onclick="showGoblin()">Goblin</button> <button onclick="showPixie()">Pixie</button> <button onclick="showUnicorn()">Unicorn</button> <button onclick="showDuelMaster()">Duel Master</button></p> 
+		<p><button onclick="showShield()">Shield</button> <button onclick="showPotion()">Potion</button> <button onclick="showFire()">Fire</button> <button onclick="showIceDragon()">Ice Dragon</button></p>
+		<p><button onclick="showCreativity()">Creativity</button> <button onclick="showCourage()">Courage</button> <button onclick="showCompromise()">Compromise</button> <button onclick="showCommunication()">Communication</button> <button onclick="showCollaboration()">Collaboration</button></p>
+	</div>
+
+</body>
+
+<script>
+
+	function hideAll()
+	{
+		document.getElementById("Lightning").style.display = "none";
+		document.getElementById("Enchant").style.display = "none";
+		document.getElementById("Enchant2").style.display = "none";
+		document.getElementById("Distract2").style.display = "none";
+		document.getElementById("Music").style.display = "none";
+		document.getElementById("Heal").style.display = "none";
+		document.getElementById("Heal2").style.display = "none";
+		document.getElementById("Portal").style.display = "none";
+		document.getElementById("Reveal").style.display = "none";
+		document.getElementById("Freeze").style.display = "none";
+		document.getElementById("Freeze2").style.display = "none";
+		document.getElementById("Dazzle").style.display = "none";
+		document.getElementById("Dazzle2").style.display = "none";
+		document.getElementById("Protection").style.display = "none";
+		document.getElementById("Ice Arrow").style.display = "none";
+		document.getElementById("Ice Arrow2").style.display = "none";
+		document.getElementById("Master Magi").style.display = "none";
+		document.getElementById("Master Magi2").style.display = "none";
+		document.getElementById("Shield").style.display = "none";
+		document.getElementById("Potion").style.display = "none";
+		document.getElementById("Potion2").style.display = "none";
+		document.getElementById("Fire").style.display = "none";
+		document.getElementById("Fire2").style.display = "none";
+		document.getElementById("Creativity").style.display = "none";
+		document.getElementById("Creativity2").style.display = "none";
+		document.getElementById("Courage").style.display = "none";
+		document.getElementById("Courage2").style.display = "none";
+		document.getElementById("Compromise").style.display = "none";
+		document.getElementById("Communication").style.display = "none";
+		document.getElementById("Collaboration").style.display = "none";
+		document.getElementById("Dragon").style.display = "none";
+		document.getElementById("Dragon2").style.display = "none";
+		document.getElementById("Goblin").style.display = "none";
+		document.getElementById("Goblin2").style.display = "none";
+		document.getElementById("Pixie").style.display = "none";
+		document.getElementById("Pixie2").style.display = "none";
+		document.getElementById("Unicorn").style.display = "none";
+		document.getElementById("Duel Master").style.display = "none";
+		document.getElementById("Ice Dragon").style.display = "none";
+		document.getElementById("Ice Dragon2").style.display = "none";
+	}
+
+	function showAll()
+	{
+		document.getElementById("Lightning").style.display = "";
+		document.getElementById("Enchant").style.display = "";
+		document.getElementById("Enchant2").style.display = "";
+		document.getElementById("Distract2").style.display = "";
+		document.getElementById("Music").style.display = "";
+		document.getElementById("Heal").style.display = "";
+		document.getElementById("Heal2").style.display = "";
+		document.getElementById("Portal").style.display = "";
+		document.getElementById("Reveal").style.display = "";
+		document.getElementById("Freeze").style.display = "";
+		document.getElementById("Freeze2").style.display = "";
+		document.getElementById("Dazzle").style.display = "";
+		document.getElementById("Dazzle2").style.display = "";
+		document.getElementById("Protection").style.display = "";
+		document.getElementById("Ice Arrow").style.display = "";
+		document.getElementById("Ice Arrow2").style.display = "";
+		document.getElementById("Master Magi").style.display = "";
+		document.getElementById("Master Magi2").style.display = "";
+		document.getElementById("Shield").style.display = "";
+		document.getElementById("Potion").style.display = "";
+		document.getElementById("Potion2").style.display = "";
+		document.getElementById("Fire").style.display = "";
+		document.getElementById("Fire2").style.display = "";
+		document.getElementById("Creativity").style.display = "";
+		document.getElementById("Creativity2").style.display = "";
+		document.getElementById("Courage").style.display = "";
+		document.getElementById("Courage2").style.display = "";
+		document.getElementById("Compromise").style.display = "";
+		document.getElementById("Communication").style.display = "";
+		document.getElementById("Collaboration").style.display = "";
+		document.getElementById("Dragon").style.display = "";
+		document.getElementById("Dragon2").style.display = "";
+		document.getElementById("Goblin").style.display = "";
+		document.getElementById("Goblin2").style.display = "";
+		document.getElementById("Pixie").style.display = "";
+		document.getElementById("Pixie2").style.display = "";
+		document.getElementById("Unicorn").style.display = "";
+		document.getElementById("Duel Master").style.display = "";
+		document.getElementById("Ice Dragon").style.display = "";
+		document.getElementById("Ice Dragon2").style.display = "";
+	}
+
+	function toggleLower()
+	{
+		var lowerMap = document.getElementById("maplower");
+		if (lowerMap.style.display == "none")
+		{
+			lowerMap.style.display = "";
+		} 
+		else
+		{
+			lowerMap.style.display = "none";
+  		}
+	}
+
+	function toggleUpper()
+	{
+		var upperMap = document.getElementById("mapupper");
+		if (upperMap.style.display == "none")
+		{
+			upperMap.style.display = "";
+		} 
+		else
+		{
+			upperMap.style.display = "none";
+  		}
+	}
+
+	function showLightning()
+	{
+		hideAll();
+		document.getElementById("Lightning").style.display = "";
+	}
+
+	function showEnchant()
+	{
+		hideAll();
+		document.getElementById("Enchant").style.display = "";
+		document.getElementById("Enchant2").style.display = "";
+	}
+
+	function showDistract()
+	{
+		hideAll();
+		document.getElementById("Distract2").style.display = "";
+	}
+
+	function showMusic()
+	{
+		hideAll();
+		document.getElementById("Music").style.display = "";
+	}
+
+	function showHeal()
+	{
+		hideAll();
+		document.getElementById("Heal").style.display = "";
+		document.getElementById("Heal2").style.display = "";
+	}
+
+	function showPortal()
+	{
+		hideAll();
+		document.getElementById("Portal").style.display = "";
+	}
+
+	function showReveal()
+	{
+		hideAll();
+		document.getElementById("Reveal").style.display = "";
+	}
+
+	function showFreeze()
+	{
+		hideAll();
+		document.getElementById("Freeze").style.display = "";
+		document.getElementById("Freeze2").style.display = "";
+	}
+
+	function showDazzle()
+	{
+		hideAll();
+		document.getElementById("Dazzle").style.display = "";
+		document.getElementById("Dazzle2").style.display = "";
+	}
+
+	function showProtection()
+	{
+		hideAll();
+		document.getElementById("Protection").style.display = "";
+	}
+
+	function showIceArrow()
+	{
+		hideAll();
+		document.getElementById("Ice Arrow").style.display = "";
+		document.getElementById("Ice Arrow2").style.display = "";
+	}
+
+	function showMasterMagi()
+	{
+		hideAll();
+		document.getElementById("Master Magi").style.display = "";
+		document.getElementById("Master Magi2").style.display = "";
+	}
+
+	function showShield()
+	{
+		hideAll();
+		document.getElementById("Shield").style.display = "";
+	}
+
+	function showPotion()
+	{
+		hideAll();
+		document.getElementById("Potion").style.display = "";
+		document.getElementById("Potion2").style.display = "";
+	}
+
+	function showFire()
+	{
+		hideAll();
+		document.getElementById("Fire").style.display = "";
+		document.getElementById("Fire2").style.display = "";
+	}
+
+	function showCreativity()
+	{
+		hideAll();
+		document.getElementById("Creativity").style.display = "";
+		document.getElementById("Creativity2").style.display = "";
+	}
+
+	function showCourage()
+	{
+		hideAll();
+		document.getElementById("Courage").style.display = "";
+		document.getElementById("Courage2").style.display = "";
+	}
+
+	function showCompromise()
+	{
+		hideAll();
+		document.getElementById("Compromise").style.display = "";
+	}
+
+	function showCommunication()
+	{
+		hideAll();
+		document.getElementById("Communication").style.display = "";
+	}
+
+	function showCollaboration()
+	{
+		hideAll();
+		document.getElementById("Collaboration").style.display = "";
+	}
+
+	function showDragon()
+	{
+		hideAll();
+		document.getElementById("Dragon").style.display = "";
+		document.getElementById("Dragon2").style.display = "";
+	}
+
+	function showGoblin()
+	{
+		hideAll();
+		document.getElementById("Goblin").style.display = "";
+		document.getElementById("Goblin2").style.display = "";
+	}
+
+	function showPixie()
+	{
+		hideAll();
+		document.getElementById("Pixie").style.display = "";
+		document.getElementById("Pixie2").style.display = "";
+	}
+
+	function showUnicorn()
+	{
+		hideAll();
+		document.getElementById("Unicorn").style.display = "";
+	}
+
+	function showDuelMaster()
+	{
+		hideAll();
+		document.getElementById("Duel Master").style.display = "";
+	}
+
+	function showIceDragon()
+	{
+		hideAll();
+		document.getElementById("Ice Dragon").style.display = "";
+		document.getElementById("Ice Dragon2").style.display = "";
+	}
+
+	hideAll();
+
+</script>
+
+</html>
